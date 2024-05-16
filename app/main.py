@@ -6,4 +6,4 @@ app : FastAPI = FastAPI()
 
 @app.get("/")
 async def home():
-    return "hello jan so gai ho"
+    return {"Message":"hello jan so gai ho"}
